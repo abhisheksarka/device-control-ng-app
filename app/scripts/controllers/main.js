@@ -11,7 +11,7 @@ angular.module('app')
   .controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
     $scope.params = {
       led: false,
-      xbox: false
+      xbox: true
     };
 
     $scope.$watch('params.led', function(nv, ov) {
